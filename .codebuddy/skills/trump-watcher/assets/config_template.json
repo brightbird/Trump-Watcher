@@ -1,0 +1,28 @@
+{
+  "data_sources": {
+    "google_news_rss": {
+      "enabled": true
+    },
+    "gnews_api": {
+      "enabled": true,
+      "api_key": ""
+    },
+    "truth_social": {
+      "enabled": true
+    },
+    "nitter": {
+      "enabled": true
+    }
+  },
+  "fetch": {
+    "max_items_per_source": 50,
+    "hours_back": 48
+  },
+  "clean": {
+    "min_content_length": 50,
+    "relevance_threshold": 0.3
+  },
+  "sentiment_engine": "vader",
+  "schedule_interval_hours": 4,
+  "data_dir": "data"
+}

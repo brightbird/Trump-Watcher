@@ -1,0 +1,47 @@
+# Data directory - runtime generated data
+data/
+
+# Compressed files
+*.zip
+trump-watcher.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables (may contain API keys)
+.env
+.env.*
+.env.local
+
+# IDE configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
